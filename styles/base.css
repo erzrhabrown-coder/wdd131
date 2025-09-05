@@ -88,9 +88,7 @@ nav{
         
   
     }
+}
     .card-2{
         grid-column: 1/4;
-
-    };
-    
-}
+    }
