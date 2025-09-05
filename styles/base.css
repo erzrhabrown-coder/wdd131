@@ -83,3 +83,15 @@ nav{
     padding: 0.25rem;
 
 }
+@media  (max-width: 767px){
+    .card-1, .card-2{
+        grid-column: 1/4;
+        
+  
+    }
+    .card-2{
+        grid-column: 1/4;
+
+    };
+    
+}
