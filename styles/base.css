@@ -4,6 +4,8 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
     font-variation-settings: "wdth" 100;
     max-width: 85%; 
     margin: auto;
@@ -77,6 +79,7 @@ img{
     margin-right: 15px;
     margin-left: 1px;
     margin-bottom: 15px;
+    width: 100px;
 }
 nav{
     background-color: aliceblue;
