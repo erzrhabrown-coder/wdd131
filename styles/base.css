@@ -5,7 +5,7 @@ body {
     font-weight: weight;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    max-width: 80%; 
+    max-width: 85%; 
     margin: auto;
 }
 #course-title{
@@ -84,9 +84,6 @@ nav{
 
 }
 @media  (max-width: 767px){
-    body{
-        max-width: 100%;
-    }
     .card-1, .card-2{
         grid-column: 1/4;
         
