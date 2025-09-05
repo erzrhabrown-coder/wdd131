@@ -8,7 +8,7 @@ body {
 }
 #course-title{
     text-align: center;
-    color: white;
+    color: black;
     
 }
 header span{
@@ -49,19 +49,19 @@ main h1{
 footer{
     text-align: center;
     background-color:  #8ecae6;
-    color:  aliceblue;
+    color:  black;
    
 }
 h1, h2{
     background-color: #8ecae6;
-    color: white;
+    color: black;
     text-align: center;
    
    
 }
 
 nav a{
-    color: #8ecae6;
+    color: black;
     
     
     
