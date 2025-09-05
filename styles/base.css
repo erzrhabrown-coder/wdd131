@@ -5,7 +5,7 @@ body {
   font-weight: weight;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  max-width: 80%; 
+  width: 80%; 
   margin: auto;
 }
 #course-title{
@@ -21,6 +21,7 @@ header span{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    
     
 
 }
@@ -40,8 +41,8 @@ main h1{
     grid-column: 1/2;
     border: 1px solid ;
     border-radius: 1rem;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 1rem;
+    padding: 1rem;
   
 }
 .card-2{
@@ -64,9 +65,10 @@ nav a{
     color: #8ecae6;
     
     
+    
 }
 a:hover{
-    background-color: black;
+    background-color: white;
     padding: 0.5rem;
 }
 img{
@@ -74,4 +76,9 @@ img{
     margin-right: 15px;
     margin-left: 1px;
     margin-bottom: 15px;
+}
+nav{
+    background-color: black;
+    padding: 0.25rem;
+
 }
