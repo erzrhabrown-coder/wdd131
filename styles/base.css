@@ -1,12 +1,12 @@
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
- max-width: 80%; 
-  margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    max-width: 80%; 
+    margin: auto;
 }
 #course-title{
     text-align: center;
