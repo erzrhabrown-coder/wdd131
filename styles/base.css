@@ -50,8 +50,9 @@ main h1{
 }
 footer{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:  #8ecae6;
+    color:  aliceblue;
+   
 }
 h1, h2{
     background-color: #8ecae6;
@@ -78,7 +79,7 @@ img{
     margin-bottom: 15px;
 }
 nav{
-    background-color: black;
+    background-color: aliceblue;
     padding: 0.25rem;
 
 }
