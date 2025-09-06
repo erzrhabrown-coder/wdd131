@@ -5,4 +5,4 @@ document.getElementById("currentyear").innerHTML = currentY;
 
 const docMod =(document.lastModified);
 
-document.getElementById('lastModified').textContent =  docMod;
+document.getElementById("lastModified").textContent =  docMod;
