@@ -1,0 +1,41 @@
+@media(max-width:767px){
+    .hamburger{
+        display: block;
+        padding: 1rem;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        background-color: rgb(63, 58, 58);
+        left: -160% ;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        
+    }
+    .nav-item{
+        margin: 16px 0;
+
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+
+    figure{
+        grid-column: 1/2;
+    }
+    a{
+        color: white;
+    }
+}
