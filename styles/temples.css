@@ -13,23 +13,24 @@
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
-        position: fixed;
+        position:absolute;
         background-color: rgb(63, 58, 58);
-        left: -160% ;
+        left: -120% ;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        width: 100%;
         text-align: center;
-        transition: 0.3s;
-        
+        transition: 0.3s;    
+        width: 100%;   
+        max-width: 75%;
+   
     }
     .nav-item{
         margin: 16px 0;
 
     }
     .nav-menu.active{
-        left: 0;
+        left: 70px;
     }
 
     figure{
