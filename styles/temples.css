@@ -18,11 +18,10 @@
         left: -120% ;
         top: 70px;
         gap: 0;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        transition: 0.3s;    
-        width: 100%;   
-        max-width: 75%;
+        transition: 0.3s;  
+        width: 85%;  
    
     }
     .nav-item{
@@ -30,7 +29,7 @@
 
     }
     .nav-menu.active{
-        left: 70px;
+        left: 0px;
     }
 
     figure{
