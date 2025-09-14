@@ -21,7 +21,7 @@
         flex-direction: row;
         text-align: center;
         transition: 0.3s;  
-        width: 85%;  
+        width:100%;  
    
     }
     .nav-item{
