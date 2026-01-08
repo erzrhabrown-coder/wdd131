@@ -1,7 +1,7 @@
-const currentY = new Date().getFullYear();
+const currenty = new Date().getFullYear();
 
 
-document.querySelector("#currentyear").innerHTML = currentY;
+document.querySelector("#currentyear").innerHTML = currenty;
 
 const docMod =(document.lastModified);
 
