@@ -9,7 +9,7 @@ body{
    
 }               
 
-header{
+nav{
     text-align: center;
     background-color:  orange;
     grid-column: 1/5;
@@ -20,7 +20,7 @@ main{
     
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr;
-    background-image: url("/images/pexels-zeal-creative-studios-58866141-33697675.webp");
+    background-image: url("/images/gh_clothes.webp");
     background-size: cover;  
     
 
