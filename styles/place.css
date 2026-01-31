@@ -67,6 +67,11 @@ section{
     display: none;
 }
 
+.icon::after {
+    content: "🌥️"; 
+
+}
+
 @media  (max-width: 767px){
     main{
         display: block;
