@@ -9,7 +9,7 @@ body{
    
 }               
 
-nav{
+header{
     text-align: center;
     background-color:  orange;
     grid-column: 1/5;
