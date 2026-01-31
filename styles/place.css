@@ -18,7 +18,7 @@ header{
 }
 
 main{
-    background-image: url("/images/gh_clothes.webp");
+    background-image: url("/wdd131/images/gh_clothes.webp");
     background-size: cover; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
