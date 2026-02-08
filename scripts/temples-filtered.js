@@ -141,7 +141,10 @@ smalllink.addEventListener("click", () =>{
   templecard(smalllink)}); 
 
 
+ const homelink = document.querySelector("#home");
 
+homelink.addEventListener("click", () =>{
+  let homelink = templecard(temples)}); 
 
 function templecard(filteredtemple) {
     document.querySelector(".container").innerHTML = "";
