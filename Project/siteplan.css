@@ -1,0 +1,31 @@
+body{
+    background-color: #82C8E5;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    max-width: 797px;
+    margin: 0 auto;
+    
+}
+h1{
+    /*Sunset Orange*/
+    color: white;  
+    padding: 12px; 
+    
+     }
+h2{
+    background-color: orange;
+    color:  White;
+    
+}
+#head1{ 
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding:5px
+}
