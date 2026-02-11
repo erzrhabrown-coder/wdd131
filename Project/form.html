@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ezra Ato Brown">
+    <meta name="description" content="Week O5 assignment: Product Review Form by Ezra Ato Brown">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"> </script>
+</head>
+<body>
+    
+    <main>
+        <h1>Product Review Form</h1>
+        
+        <form method="get" action="review.html">
+        <h3>Product Name</h3>
+        <select id="prodname" name="Product" required > 
+            <option disabled selected> <aria-placeholder>Select a Product....</aria-placeholder></option>
+        </select>
+        <h3>Overall Rating</h3>
+    <div class="stars">
+        
+	    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+	    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+	    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+	    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+	    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+        
+    </div>
+
+        <h3>Date of Installation</h3>
+            <input type="date" id="installdate" name="Insda" required>
+        <h3>Which features did you find useful in the product?[Check all that apply] </h3>
+    
+            <li><input type="checkbox" id="check1" name="Checks" value="1">Durability</li>
+            <li><input type="checkbox" id="check1" name="Checks" value="2">Easo Of use</li>
+            <li><input type="checkbox" id="check1" name="Checks" value="3">Performance</li>
+            <li><input type="checkbox" id="check1" name="Checks" value="4">Design</li>
+
+        <h3>Written Review</h3>
+            <textarea id="writtenreview" name="revie" ></textarea>
+        <h3>Your Name</h3>
+            <input type="text" id="yourname" name="yname"><br><br>
+
+        <input type="submit" value="Submit Review" style="width: 150px; height: 30px; font-size:large;">
+        </form>
+    </main>
+<footer><p> &copy;<span id="currentyear"></span>- Ezra Ato Brown - Ghana, Accra</p>
+        <p>Last Modification: &nbsp;<span id="lastModified"></span></p>
+ </footer>
+    
+</body>
+</html>
