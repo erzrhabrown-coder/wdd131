@@ -2,6 +2,8 @@ body{
 	font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 100;
+	max-width: 60%;
+	margin: 0 auto;
 	
 }
 
@@ -56,4 +58,11 @@ h1{
 	text-align: center;
 	background-color: skyblue;
 
+}
+@media(max-width:767px){
+	body{
+		max-width: 100%;
+		margin: none;
+	} 
+	
 }
