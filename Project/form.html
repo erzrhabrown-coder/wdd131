@@ -30,22 +30,35 @@
 	    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
         
     </div>
+    <br>
+        <label for="installdate">Installation Date</label> <br><br>
+<input type="date" id="installdate" name="Insda" required><br>
 
-        <h3>Date of Installation</h3>
-            <input type="date" id="installdate" name="Insda" required>
-        <h3>Which features did you find useful in the product?[Check all that apply] </h3>
-    
-            <input type="checkbox" id="check1" name="Checks" value="1"> <label>Durability</label> 
-            <input type="checkbox" id="check2" name="Checks" value="2"><label>Ease Of use</label>
-            <input type="checkbox" id="check3" name="Checks" value="3"><label>Performance</label>
-            <input type="checkbox" id="check4" name="Checks" value="4"><label>Design</label>
+<fieldset>
+    <legend>Which features did you find useful in the product? (Check all that apply)</legend>
 
-        <h3>Written Review</h3>
-            <textarea id="writtenreview" name="revie" ></textarea>
-        <h3>Your Name</h3>
-            <input type="text" id="yourname" name="yname"><br><br>
+    <input type="checkbox" id="check1" name="Checks[]" value="Durability">
+    <label for="check1">Durability</label><br>
 
-        <input type="submit" value="Submit Review">
+    <input type="checkbox" id="check2" name="Checks[]" value="Ease of use">
+    <label for="check2">Ease of use</label><br>
+
+    <input type="checkbox" id="check3" name="Checks[]" value="Performance">
+    <label for="check3">Performance</label><br>
+
+    <input type="checkbox" id="check4" name="Checks[]" value="Design">
+    <label for="check4">Design</label>
+</fieldset>
+
+<label for="writtenreview">Written Review</label><br><br>
+<textarea id="writtenreview" name="review"></textarea><br><br>
+
+<label for="yourname">Your Name</label><br>
+<input type="text" id="yourname" name="yname">
+
+<br><br>
+<input type="submit" value="Submit Review">
+
         </form>
     </main>
 <footer><p> &copy;<span id="currentyear"></span>- Ezra Ato Brown - Ghana, Accra</p>
