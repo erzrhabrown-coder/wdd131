@@ -43,7 +43,7 @@ function populateProduct() {
 
   products.forEach(product => {
     let dis = document.createElement('option');
-    let name = document.createElement('placeholder');
+    let name = document.createElement('value');
 
     name.textContent = product.name;
 
