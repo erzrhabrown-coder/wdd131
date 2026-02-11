@@ -10,10 +10,11 @@
     <script defer src="scripts/form.js"> </script>
 </head>
 <body>
-    
-    <main>
+    <header> 
         <h1>Product Review Form</h1>
-        
+    </header>
+    
+    <main>        
         <form method="get" action="review.html">
         <h3>Product Name</h3>
         <select id="prodname" name="Product" required > 
@@ -34,10 +35,10 @@
             <input type="date" id="installdate" name="Insda" required>
         <h3>Which features did you find useful in the product?[Check all that apply] </h3>
     
-            <li><input type="checkbox" id="check1" name="Checks" value="1">Durability</li>
-            <li><input type="checkbox" id="check1" name="Checks" value="2">Easo Of use</li>
-            <li><input type="checkbox" id="check1" name="Checks" value="3">Performance</li>
-            <li><input type="checkbox" id="check1" name="Checks" value="4">Design</li>
+            <input type="checkbox" id="check1" name="Checks" value="1"> <label>Durability</label> 
+            <input type="checkbox" id="check1" name="Checks" value="2"><label>Ease Of use</label>
+            <input type="checkbox" id="check1" name="Checks" value="3"><label>Performance</label>
+            <input type="checkbox" id="check1" name="Checks" value="4"><label>Design</label>
 
         <h3>Written Review</h3>
             <textarea id="writtenreview" name="revie" ></textarea>
