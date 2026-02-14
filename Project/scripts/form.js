@@ -53,18 +53,19 @@ function populateProduct() {
 document.querySelector("#prodname").appendChild(dis);
   })}
 
- if (typeof(Storage) !== "undefined")
- { 
+ 
     let visitCount = localStorage.getItem("pageLoadCount");
 
     if (visitCount ==null){
         visitCount = 1;
+        document.querySelector(".countdisplay") = 'This is your first visit';
     }
     else{
         visitCount = parseInt(visitCount)+1;
  }
     localStorage.setItem("pageLoadCount", visitCount);
     visitCount = localStorage.getItem("pageLoadCount")
-    document.getElementById("#countdisplay").innerHTML = visitCount;
+    document.querySelector(".countdisplay").innerHTML = visitCount;
         
-}
+
+document.querySelector('.countdisplay').textContent = visitCount;
