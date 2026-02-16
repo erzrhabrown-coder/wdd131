@@ -10,25 +10,25 @@ document.querySelector("#lastModified").textContent =  docMod;
 
 const materials = [
     {
-        materialName: "4inch PVC Pipe",
+        materialName: "2inch 40degrees Wye",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/2inch%2040degrees%20wye.PNG?raw=true",
         type_material: "Pipe"
     },
     {
-        materialName: "2inch PVC Pipe",
+        materialName: "2inch 45degree bend",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/2inch%2045degrees%20bend.PNG?raw=true",
         type_material: "Pipe"
 
     },
     { 
-        materialName: "6inch PVC Pipe",
+        materialName: "4inch 45 degree  bend",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/4inch%2045degree%20Bend.PNG?raw=true",
          type_material: "Pipe"
 
      },
@@ -42,18 +42,18 @@ const materials = [
      },
 
      {
-        materialName: "90 degrees Elbow",
+        materialName: "4inch PVC tee ",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/4inch%20pvc%20tee.PNG?raw=true",
         type_material: "Pipe"
 
      },
      {
-        materialName: "45 degrees bend",
+        materialName: "4inch wye",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/4inch%20wye.PNG?raw=true",
         type_material: "Pipe"
     },
     {
@@ -92,7 +92,7 @@ const materials = [
         materialName: "Angle Valve",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/angle%20valve.PNG?raw=true",
         type_material: "Plumbing"
 
     },
@@ -100,31 +100,31 @@ const materials = [
         materialName: "Flexible tube",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/flexible%20cable.PNG?raw=true",
         type_material: "Plumbing"
 
     },
      {
-        materialName: "Ceramic W/C",
+        materialName: "Stop Gate",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/stop%20gate.PNG?raw=true",
         type_material: "Plumbing"
 
     },
      {
-        materialName: "Ceramic Sink",
+        materialName: "Stop Valve",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/ppr%20stop%20valve.PNG?raw=true",
         type_material: "Plumbing"
 
     },
      {
-        materialName: "Ceramic Urinary bowl",
+        materialName: "floor Drain",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/floorDrain.PNG?raw=true",
         type_material: "Plumbing"
 
     },
