@@ -17,5 +17,8 @@
     h3,p{
         padding-right: 12px;
     }
+    #logout{
+        color: tomato;
+    }
  
 }
