@@ -32,14 +32,7 @@ const materials = [
          type_material: "Pipe"
 
      },
-     {
-        materialName: "Stop Cork",
-        price: 100,
-        Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
-        type_material: "Pipe"
-
-     },
+    
 
      {
         materialName: "4inch PVC tee ",
@@ -57,34 +50,34 @@ const materials = [
         type_material: "Pipe"
     },
     {
-        materialName: "45W LED light",
+        materialName: "HDPE Pipe",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/HDPE%20pipe.PNG?raw=true",
         type_material: "Electricals"
 
     },
  {
-        materialName: "20W LED light",
+        materialName: "Main Switch",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/main%20switch.jpg?raw=true",
         type_material: "Electricals"
 
     },
      {
-        materialName: "25W bulb",
+        materialName: "Earth Rod",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/earthRod.PNG?raw=true",
         type_material: "Electricals"
 
     },
      {
-        materialName: "2Meters Cable Reel",
+        materialName: "Ceramic Shackles",
         price: 100,
         Remaining: 20,
-        imageUrl :"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+        imageUrl :"https://github.com/erzrhabrown-coder/wdd131/blob/main/Project/images/ceramic%20shacles.jpg?raw=true",
         type_material: "Electricals"
 
     },
