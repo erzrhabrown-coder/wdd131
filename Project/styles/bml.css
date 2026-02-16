@@ -131,3 +131,6 @@ div:not(.logo-img) {
 #span_one{
     background-color: white;
 }
+#logout{
+    color: tomato;
+}
