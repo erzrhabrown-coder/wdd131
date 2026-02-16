@@ -55,17 +55,44 @@ document.querySelector("#prodname").appendChild(dis);
 
  
     let visitCount = localStorage.getItem("pageLoadCount");
+    
+  let saveName = document.querySelector("#submitreview");
+  let saveEmail = document.querySelector('#youremail').value;
 
-    if (visitCount ==null){
-        visitCount = 1;
-        document.querySelector(".countdisplay") = 'This is your first visit';
+  saveName.addEventListener("click", () => {
+      let name = document.querySelector('#yourname').value;
+      let saveEmail = document.querySelector('#youremail').value;
+
+      /*check if user has visited page / is registered*/ 
+    if (localStorage.getItem(saveEmail)=== name){
+      visitCount =1;
+        document.querySelector(".countdisplay").textContent = 'This is your first visit';
+        
     }
     else{
         visitCount = parseInt(visitCount)+1;
- }
-    localStorage.setItem("pageLoadCount", visitCount);
-    visitCount = localStorage.getItem("pageLoadCount")
-    document.querySelector(".countdisplay").innerHTML = visitCount;
-        
+        localStorage.setItem("pageLoadCount", visitCount);
+        visitCount = localStorage.getItem("pageLoadCount");
 
-document.querySelector('.countdisplay').textContent = visitCount;
+        
+        saveName = document.getElementById('yourname').value;
+        saveEmail = document.getElementById('youremail').value;
+
+        localStorage.setItem(saveEmail, saveName);
+
+        document.querySelector('.countdisplay').textContent = "Number of visits: " +visitCount;
+        alert(visitCount);
+        alert(saveEmail);
+        
+ }
+
+    saveName = document.getElementById('yourname').value;
+    saveEmail = document.getElementById('youremail').value;
+        localStorage.setItem(saveEmail, saveName);
+        visitor = localStorage.getItem(saveName);
+        saveName = visitor;
+    
+
+  })
+    
+

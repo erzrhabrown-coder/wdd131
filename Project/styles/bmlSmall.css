@@ -1,0 +1,21 @@
+@media(max-width:767px){
+   
+
+    section{
+        grid-column: 1/2;
+    }
+    a{
+        color: white;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+    }
+    .vertical-text, .logo{
+        display: none;
+    }
+    h3,p{
+        padding-right: 12px;
+    }
+ 
+}

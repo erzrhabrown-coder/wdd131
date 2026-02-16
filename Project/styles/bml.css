@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;   
+    margin: 0 auto;
+    display: grid;
+    grid-template:  1fr auto 1fr/ 0.25fr 0.25fr auto;
+    
+    
+    
+} 
+h2{
+    
+    color:  White;    
+}
+p, h3{
+    text-align: center;
+    padding-right: 90px;
+}
+
+main{
+    padding-top:50px ;
+}
+li, a{
+
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    padding: 2px;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    padding:5px;
+    grid-column: 1/4;
+    background-color: skyblue;
+    border-top: 12px solid white;
+}
+img:not(.logo){
+    width: 250px;
+    height: 250px;
+    border-radius: 20px 0 0 ;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3) ;
+     }
+
+    
+header{
+    
+    background-color:skyblue;
+    color: black;
+    grid-column: 1/4;
+    text-align: center;
+    padding: 12px;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+
+}
+
+nav{
+    grid-column: 1/2;
+    background-color: rgb(74, 122, 141);
+    color: white;
+    padding-top:50px ;
+    padding-right: 20px;
+}
+
+
+.container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ auto auto auto ;
+    gap: 20px;
+}
+section{
+    padding-left: 50px;
+
+}
+a, li{
+    padding-bottom: 50px;
+    color: white;
+
+}
+
+div:not(.logo-img) {
+    background-color: skyblue;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-left: 12px solid white;
+    
+   
+
+}
+.vertical-text {
+  writing-mode: vertical-rl; /* Use vertical-lr for left-to-right flow */
+  text-orientation: upright; /* Keeps letters upright */
+
+  
+}
+.high{
+    padding-top: 100px;
+    display: flex;
+    margin: 50px;
+    color: black;
+    word-spacing: 90px;
+    
+
+}
+
+#cat_head{
+    background-color: white;
+    color: black;
+    margin: 12px;
+}
+.logo{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border: 5px solid white;
+    
+    
+}
+.logo-img{
+    position: absolute;
+    grid-row: 1/5;
+    
+
+}
+#span_one{
+    background-color: white;
+}
