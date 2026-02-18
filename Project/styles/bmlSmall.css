@@ -1,24 +1,32 @@
 @media(max-width:767px){
    
 
-    section{
-        grid-column: 1/2;
-    }
+  
     a{
         color: white;
     }
-    img{
-        width: 120px;
-        height: 120px;
+    section{
+        display: block;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+
+    img:not(.logo){
+        width: 100px;
+        height: 100px;
     }
     .vertical-text, .logo{
         display: none;
     }
-    h3,p{
+    h3,p:not(footer){
         padding-right: 12px;
+        font-size: small;
     }
     #logout{
         color: black;
+    }
+    footer{
+        display: block;
     }
  
 }
