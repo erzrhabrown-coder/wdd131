@@ -21,7 +21,7 @@
         flex-direction: row;
         text-align: center;
         transition: 0.3s;  
-        width:1220px;   
+        width:800px;   
    
     }
     .nav-item{
@@ -34,12 +34,15 @@
     a{
         color: white;
     }
-   
     header{
-        width: 1260px;
+        width: 800px;
     }
     img{
-        width: 120px;
-        height: 120px;
+        max-width: 190px;
+        max-height: 130px;
     }
-}
+    h3, p{
+        font-size: 12px;
+    }
+ 
+}       
