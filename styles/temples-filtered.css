@@ -21,7 +21,7 @@
         flex-direction: row;
         text-align: center;
         transition: 0.3s;  
-        width:1205px;   
+        width:1220px;   
    
     }
     .nav-item{
@@ -35,12 +35,11 @@
         color: white;
     }
    
-   
-    body{
-        display: block;
-    }
     header{
-        width: 1200px;
+        width: 1260px;
     }
-
+    img{
+        width: 120px;
+        height: 120px;
+    }
 }
