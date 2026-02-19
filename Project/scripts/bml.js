@@ -179,8 +179,7 @@ function materialcard(filteredmaterial) {
 
     card.appendChild(materialName);
     card.appendChild(remaining);
-        card.appendChild(price);
-
+    card.appendChild(price);
     card.appendChild(materialType)
 
 document.querySelector(".container").appendChild(card);
