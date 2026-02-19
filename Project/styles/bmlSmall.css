@@ -18,7 +18,7 @@
     .vertical-text, .logo{
         display: none;
     }
-    h3,p:not(footer){
+    h3,p:not(.foot){
         padding-left: 0px;
         font-size: small;
         text-align: left;
@@ -26,15 +26,16 @@
     #logout{
         color: black;
     }
-    footer{
-        display: block;
-    }
+    
     p:nth-child(4){ 
     color: white;
     background-color: orange;
     margin: 0;
 
  }
-
+.foot{
+        margin-top: 5%;
+        color: white;
+}
  
 }
