@@ -169,18 +169,18 @@ function materialcard(filteredmaterial) {
     let img = document.createElement('img');
 
     materialName.textContent = material.materialName;
-    price.innerHTML = '<span class="label">Price:</span> ' + material.price;
-    remaining.innerHTML = '<span class="label">Quantity In Stock:</span> ' + material.Remaining;
+    price.innerHTML = '<span class="label" id="price">Price:</span> '+  material.price;
+    remaining.innerHTML = '<span class="label">Remaining:</span> ' + material.Remaining;
     materialType.innerHTML = '<span class="label">Category:</span> ' + material.type_material;
     img.setAttribute("src", material.imageUrl);
     img.setAttribute("loading","lazy");
 
-
     card.appendChild(img);
 
     card.appendChild(materialName);
-    card.appendChild(price);
     card.appendChild(remaining);
+        card.appendChild(price);
+
     card.appendChild(materialType)
 
 document.querySelector(".container").appendChild(card);
