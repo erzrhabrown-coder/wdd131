@@ -19,8 +19,9 @@
         display: none;
     }
     h3,p:not(footer){
-        padding-right: 12px;
+        padding-left: 0px;
         font-size: small;
+        text-align: left;
     }
     #logout{
         color: black;
