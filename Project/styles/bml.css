@@ -61,7 +61,7 @@ header{
 
 nav{
     grid-column: 1/2;
-    background-color: rgb(74, 122, 141);
+    background-color: rgb(74, 103, 116);
     color: white;
     padding-top:50px ;
     padding-right: 20px;
@@ -147,13 +147,14 @@ p:nth-child(4){
 }
 .foot{
         margin-top: 3%;
+        background-color: white;
 }
  p:nth-last-child(1){
     margin-bottom: 20px;
     padding: 0;
  }
  footer{
-    color: white;
+    color: black;
  }
 
 
